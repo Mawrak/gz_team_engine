@@ -76,21 +76,21 @@
 #include <vector>
 #include <cassert>
 
-#include <boost/static_assert.hpp>
-#include <boost/type_traits.hpp>
-#include <boost/bind.hpp>
-#include <boost/function.hpp>
-#include <boost/preprocessor/repetition/enum_params.hpp>
-#include <boost/preprocessor/repetition/enum_params_with_a_default.hpp>
-#include <boost/preprocessor/repetition/repeat.hpp>
-#include <boost/type_traits/is_same.hpp>
-#include <boost/mpl/list.hpp>
-#include <boost/mpl/apply.hpp>
-#include <boost/mpl/lambda.hpp>
-#include <boost/mpl/logical.hpp>
-#include <boost/mpl/find_if.hpp>
-#include <boost/mpl/apply_if.hpp>
-#include <boost/mpl/logical.hpp>
+#include <../../3rd party/boost/boost/static_assert.hpp>
+#include <../../3rd party/boost/boost/type_traits.hpp>
+#include <../../3rd party/boost/boost/bind.hpp>
+#include <../../3rd party/boost/boost/function.hpp>
+#include <../../3rd party/boost/boost/preprocessor/repetition/enum_params.hpp>
+#include <../../3rd party/boost/boost/preprocessor/repetition/enum_params_with_a_default.hpp>
+#include <../../3rd party/boost/boost/preprocessor/repetition/repeat.hpp>
+#include <../../3rd party/boost/boost/type_traits/is_same.hpp>
+#include <../../3rd party/boost/boost/mpl/list.hpp>
+#include <../../3rd party/boost/boost/mpl/apply.hpp>
+#include <../../3rd party/boost/boost/mpl/lambda.hpp>
+#include <../../3rd party/boost/boost/mpl/logical.hpp>
+#include <../../3rd party/boost/boost/mpl/find_if.hpp>
+#include <../../3rd party/boost/boost/mpl/apply_if.hpp>
+#include <../../3rd party/boost/boost/mpl/logical.hpp>
 
 #include <luabind/config.hpp>
 #include <luabind/scope.hpp>

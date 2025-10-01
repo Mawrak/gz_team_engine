@@ -4,7 +4,7 @@
 
 #include "SoundRender_Core.h"            
 #include "OpenALDeviceList.h"
-#include <eax.h>
+#include "..\..\3rd party\eax\Include\eax.h"
 
 
 #ifdef DEBUG

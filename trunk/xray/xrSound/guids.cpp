@@ -2,7 +2,7 @@
 
 #define INITGUID 
 #include <dsound.h>
-#include <eax.h>
+#include "..\..\3rd party\eax\Include\eax.h"
 
 /*
 --- replaces following

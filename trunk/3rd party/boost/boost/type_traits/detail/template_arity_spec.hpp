@@ -16,11 +16,11 @@
 
 // no include guards, the header is intended for multiple inclusion!
 
-#include "boost/mpl/aux_/template_arity_fwd.hpp"
-#include "boost/mpl/aux_/preprocessor/params.hpp"
-#include "boost/mpl/aux_/lambda_support.hpp"
-#include "boost/mpl/aux_/config/overload_resolution.hpp"
-#include "boost/config.hpp"
+#include "../../mpl/aux_/template_arity_fwd.hpp"
+#include "../../mpl/aux_/preprocessor/params.hpp"
+#include "../../mpl/aux_/lambda_support.hpp"
+#include "../../mpl/aux_/config/overload_resolution.hpp"
+#include "../../config.hpp"
 
 #if defined(BOOST_MPL_NO_FULL_LAMBDA_SUPPORT) && \
     defined(BOOST_MPL_BROKEN_OVERLOAD_RESOLUTION)

@@ -14,47 +14,47 @@
 
 #if defined(linux) || defined(__linux) || defined(__linux__)
 // linux:
-#  define BOOST_PLATFORM_CONFIG "boost/config/platform/linux.hpp"
+#  define BOOST_PLATFORM_CONFIG "../boost/config/platform/linux.hpp"
 
 #elif defined(__FreeBSD__) || defined(__NetBSD__) || defined(__OpenBSD__)
 // BSD:
-#  define BOOST_PLATFORM_CONFIG "boost/config/platform/bsd.hpp"
+#  define BOOST_PLATFORM_CONFIG "../boost/config/platform/bsd.hpp"
 
 #elif defined(sun) || defined(__sun)
 // solaris:
-#  define BOOST_PLATFORM_CONFIG "boost/config/platform/solaris.hpp"
+#  define BOOST_PLATFORM_CONFIG "../boost/config/platform/solaris.hpp"
 
 #elif defined(__sgi)
 // SGI Irix:
-#  define BOOST_PLATFORM_CONFIG "boost/config/platform/irix.hpp"
+#  define BOOST_PLATFORM_CONFIG "../boost/config/platform/irix.hpp"
 
 #elif defined(__hpux)
 // hp unix:
-#  define BOOST_PLATFORM_CONFIG "boost/config/platform/hpux.hpp"
+#  define BOOST_PLATFORM_CONFIG "../boost/config/platform/hpux.hpp"
 
 #elif defined(__CYGWIN__)
 // cygwin is not win32:
-#  define BOOST_PLATFORM_CONFIG "boost/config/platform/cygwin.hpp"
+#  define BOOST_PLATFORM_CONFIG "../boost/config/platform/cygwin.hpp"
 
 #elif defined(_WIN32) || defined(__WIN32__) || defined(WIN32)
 // win32:
-#  define BOOST_PLATFORM_CONFIG "boost/config/platform/win32.hpp"
+#  define BOOST_PLATFORM_CONFIG "../boost/config/platform/win32.hpp"
 
 #elif defined(__BEOS__)
 // BeOS
-#  define BOOST_PLATFORM_CONFIG "boost/config/platform/beos.hpp"
+#  define BOOST_PLATFORM_CONFIG "../boost/config/platform/beos.hpp"
 
 #elif defined(macintosh) || defined(__APPLE__) || defined(__APPLE_CC__)
 // MacOS
-#  define BOOST_PLATFORM_CONFIG "boost/config/platform/macos.hpp"
+#  define BOOST_PLATFORM_CONFIG "../boost/config/platform/macos.hpp"
 
 #elif defined(__IBMCPP__)
 // IBM
-#  define BOOST_PLATFORM_CONFIG "boost/config/platform/aix.hpp"
+#  define BOOST_PLATFORM_CONFIG "../boost/config/platform/aix.hpp"
 
 #elif defined(__amigaos__)
 // AmigaOS
-#  define BOOST_PLATFORM_CONFIG "boost/config/platform/amigaos.hpp"
+#  define BOOST_PLATFORM_CONFIG "../boost/config/platform/amigaos.hpp"
 
 #else
 
@@ -69,7 +69,7 @@
 #     define BOOST_HAS_UNISTD_H
 #  endif
 
-#  include <boost/config/posix_features.hpp>
+#  include "../boost/config/posix_features.hpp"
 
 #  endif
 

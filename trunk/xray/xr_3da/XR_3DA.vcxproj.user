@@ -8,7 +8,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LocalDebuggerCommandArguments>-nointro -nosound -ltx user.ltx</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerWorkingDirectory>G:\GAMES\STALKER\SOC</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerWorkingDirectory>F:\AAA_Stalker_SDK\gz_team_tayna\mod_base\bin</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
   <PropertyGroup>
     <ShowAllFiles>true</ShowAllFiles>

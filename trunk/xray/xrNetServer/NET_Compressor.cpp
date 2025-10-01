@@ -20,7 +20,7 @@
 #		pragma warning(pop)
 #	endif // DEBUG
 
-#	include <boost/crc.hpp>
+#	include "..\..\3rd party\boost\boost\crc.hpp"
 
 #	if NET_USE_LZO_COMPRESSION
 #		define	ENCODE	rtc9_compress

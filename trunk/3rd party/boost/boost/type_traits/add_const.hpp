@@ -11,10 +11,10 @@
 #ifndef BOOST_TT_ADD_CONST_HPP_INCLUDED
 #define BOOST_TT_ADD_CONST_HPP_INCLUDED
 
-#include "boost/config.hpp"
+#include "../config.hpp"
 
 // should be the last #include
-#include "boost/type_traits/detail/type_trait_def.hpp"
+#include "detail/type_trait_def.hpp"
 
 namespace boost {
 

@@ -42,7 +42,7 @@
 #include "../xrCore/log.h"
 #endif
 #include "device.h"
-#include "fs.h"
+#include "../xrCore/fs.h"
 
 #include "xrXRC.h"
 

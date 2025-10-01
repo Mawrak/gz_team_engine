@@ -36,7 +36,7 @@
 
 #include "../xrCore/xrCore.h"
 #include "../../build_config_defines.h"
-#include <boost/config.hpp>
+#include "..\..\3rd party\boost\boost\config.hpp"
 
 //namespace std {
 //	void terminate();
