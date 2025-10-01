@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\</FILEPATH>
+      <FILENAME>string.h</FILENAME>
+      <LINE>130</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>28252</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'strcpy': _Param_(1) has 'SAL_writableTo(elementCount(_String_length_(__formal(1,parameter1))+1))' on the prior instance. See &lt;no file&gt;(0). </DESCRIPTION>
+    <FUNCTION>strcpy</FUNCTION>
+    <DECORATED>strcpy</DECORATED>
+    <FUNCLINE>130</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\</FILEPATH>
+      <FILENAME>string.h</FILENAME>
+      <LINE>130</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>28253</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'strcpy': _Param_(1) has 'SAL_writableTo(elementCount(_String_length_(_Source)+1))' on this instance. See &lt;no file&gt;(0). </DESCRIPTION>
+    <FUNCTION>strcpy</FUNCTION>
+    <DECORATED>strcpy</DECORATED>
+    <FUNCLINE>130</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+      <FILENAME>huffdec.c</FILENAME>
+      <LINE>328</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'ret-&gt;nodes':  the readable size is '8' bytes, but '12' bytes may be read.</DESCRIPTION>
+    <FUNCTION>oc_huff_tree_copy</FUNCTION>
+    <DECORATED>oc_huff_tree_copy</DECORATED>
+    <FUNCLINE>316</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>318</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>319</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>320</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>321</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '_node-&gt;nbits')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>322</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>323</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>324</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>325</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>326</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>326</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;nchildren')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>327</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'nodes' is an Output from 'oc_huff_tree_copy' (declared on line 316)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>328</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>329</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>329</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>329</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'i' may equal 2</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>326</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;nchildren')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>327</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'nodes' is an Output from 'oc_huff_tree_copy' (declared on line 316)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>328</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'ret-&gt;nodes[2]', (readable range is 0 to 1)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+      <FILENAME>huffdec.c</FILENAME>
+      <LINE>327</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from '_node-&gt;nodes':  the readable size is '8' bytes, but '12' bytes may be read.</DESCRIPTION>
+    <FUNCTION>oc_huff_tree_copy</FUNCTION>
+    <DECORATED>oc_huff_tree_copy</DECORATED>
+    <FUNCLINE>316</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>318</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>319</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>320</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>321</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '_node-&gt;nbits')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>322</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>323</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>324</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>325</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>326</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>326</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;nchildren')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>327</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'nodes' is an Output from 'oc_huff_tree_copy' (declared on line 316)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>328</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>329</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>329</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>329</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'i' may equal 2</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>326</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;nchildren')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>327</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'nodes' is an Output from 'oc_huff_tree_copy' (declared on line 316)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>327</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from '_node-&gt;nodes[2]', (readable range is 0 to 1)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+      <FILENAME>huffdec.c</FILENAME>
+      <LINE>327</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'ret-&gt;nodes':  the writable size is '8' bytes, but '12' bytes might be written.</DESCRIPTION>
+    <FUNCTION>oc_huff_tree_copy</FUNCTION>
+    <DECORATED>oc_huff_tree_copy</DECORATED>
+    <FUNCLINE>316</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>318</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>319</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>320</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>321</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '_node-&gt;nbits')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>322</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>323</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>324</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>325</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>326</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>326</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;nchildren')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>327</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'nodes' is an Output from 'oc_huff_tree_copy' (declared on line 316)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>328</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>329</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>329</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>329</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'i' may equal 2</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>326</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;nchildren')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>327</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'nodes' is an Output from 'oc_huff_tree_copy' (declared on line 316)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>huffdec.c</FILENAME>
+        <LINE>327</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'ret-&gt;nodes[2]', (writable range is 0 to 1)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

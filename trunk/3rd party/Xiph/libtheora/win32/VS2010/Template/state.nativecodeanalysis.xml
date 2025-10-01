@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\</FILEPATH>
+      <FILENAME>string.h</FILENAME>
+      <LINE>130</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>28252</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'strcpy': _Param_(1) has 'SAL_writableTo(elementCount(_String_length_(__formal(1,parameter1))+1))' on the prior instance. See &lt;no file&gt;(0). </DESCRIPTION>
+    <FUNCTION>strcpy</FUNCTION>
+    <DECORATED>strcpy</DECORATED>
+    <FUNCLINE>130</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\</FILEPATH>
+      <FILENAME>string.h</FILENAME>
+      <LINE>130</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>28253</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'strcpy': _Param_(1) has 'SAL_writableTo(elementCount(_String_length_(_Source)+1))' on this instance. See &lt;no file&gt;(0). </DESCRIPTION>
+    <FUNCTION>strcpy</FUNCTION>
+    <DECORATED>strcpy</DECORATED>
+    <FUNCLINE>130</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+      <FILENAME>state.c</FILENAME>
+      <LINE>95</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to '_sb_maps[sbi][0]':  the writable size is '16' bytes, but '64' bytes might be written.</DESCRIPTION>
+    <FUNCTION>oc_sb_create_plane_mapping</FUNCTION>
+    <DECORATED>oc_sb_create_plane_mapping</DECORATED>
+    <FUNCLINE>55</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>71</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>72</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>73</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'sbi' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>75</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>76</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>76</LINE>
+        <COLUMN>2</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume '1')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>78</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>81</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>82</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'imax&gt;4' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>83</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'imax&lt;=0' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>84</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>84</LINE>
+        <COLUMN>4</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume '1')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>85</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>86</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>88</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>91</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>92</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'jmax&gt;4' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>93</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>95</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'sbi' is an Output from 'memset' (declared at &lt;no file&gt;:0)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>95</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'_Old_2`64' is equal to 64</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>95</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to '_sb_maps[sbi][0]', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+      <FILENAME>state.c</FILENAME>
+      <LINE>573</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'frag_buf_offs':  the writable size is '_state-&gt;nfrags*sizeof((*frag_buf_offs))' bytes, but '8' bytes might be written.</DESCRIPTION>
+    <FUNCTION>oc_state_ref_bufs_init</FUNCTION>
+    <DECORATED>oc_state_ref_bufs_init</DECORATED>
+    <FUNCLINE>473</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>474</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>475</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>476</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>477</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>478</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>479</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>480</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>481</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>482</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>483</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>484</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>485</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>486</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>487</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>488</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>489</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>490</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>491</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>492</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>493</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>495</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>496</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>497</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>498</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>499</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>500</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>501</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>502</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>503</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>504</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>505</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>506</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>510</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>513</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>514</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'frag_buf_offs' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>516</LINE>
+        <COLUMN>25</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>522</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>523</LINE>
+        <COLUMN>37</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>524</LINE>
+        <COLUMN>37</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>525</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>527</LINE>
+        <COLUMN>37</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>529</LINE>
+        <COLUMN>37</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>531</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>531</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>532</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>531</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>531</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>532</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>531</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>531</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>536</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>536</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>537</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>538</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>539</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>540</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>541</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>542</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>543</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>547</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>536</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>536</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>537</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>538</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>539</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>540</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>541</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>542</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>543</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>547</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>536</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>536</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>550</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>551</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>553</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>554</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>555</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>555</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'pli&lt;3')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>556</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>557</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>558</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>559</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>560</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>561</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>562</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>563</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>564</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>565</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>566</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>567</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>568</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'fragi&lt;vfragi_end')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>569</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>570</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>571</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>572</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>572</LINE>
+        <COLUMN>40</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'fragi&lt;hfragi_end')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>573</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>574</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>572</LINE>
+        <COLUMN>57</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'fragi' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>572</LINE>
+        <COLUMN>40</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'fragi&lt;hfragi_end')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>573</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'frag_buf_offs', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+      <FILENAME>state.c</FILENAME>
+      <LINE>906</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from '_state-&gt;ref_frame_idx':  the readable size is '16' bytes, but '64' bytes may be read.</DESCRIPTION>
+    <FUNCTION>oc_state_frag_recon_c</FUNCTION>
+    <DECORATED>oc_state_frag_recon_c</DECORATED>
+    <FUNCLINE>875</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>877</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>878</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>879</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>880</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>883</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '_last_zzi&lt;2' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>894</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>895</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>898</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>899</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>900</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>901</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>902</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'mb_mode==((1))' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>904</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>905</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\</FILEPATH>
+        <FILENAME>state.c</FILENAME>
+        <LINE>906</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from '_state-&gt;ref_frame_idx[15]', (readable range is 0 to 3)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

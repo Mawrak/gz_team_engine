@@ -1,0 +1,47 @@
+﻿  analyze.c
+  apiwrapper.c
+  bitpack.c
+  decapiwrapper.c
+  decinfo.c
+  decode.c
+  dequant.c
+  encapiwrapper.c
+  encfrag.c
+  encinfo.c
+  encode.c
+  enquant.c
+  fdct.c
+  fragment.c
+  huffdec.c
+  huffenc.c
+  idct.c
+  info.c
+  internal.c
+  mathops.c
+  Running Code Analysis for C/C++...
+  Generating Code...
+f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\analyze.c(288): warning C4700: uninitialized local variable 'sb_full' used
+f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\analyze.c(326): warning C4700: uninitialized local variable 'sb_full' used
+  Compiling...
+  mcenc.c
+  quant.c
+  rate.c
+  state.c
+  tokenize.c
+  mmxencfrag.c
+  mmxfrag.c
+  mmxidct.c
+  mmxstate.c
+  x86enc.c
+  x86state.c
+  Running Code Analysis for C/C++...
+  Generating Code...
+f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\tokenize.c(1035): warning C4700: uninitialized local variable 'ti' used
+f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\tokenize.c(795): warning C4700: uninitialized local variable 'token1' used
+f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\tokenize.c(796): warning C4700: uninitialized local variable 'eb1' used
+f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\tokenize.c(247): warning C4700: uninitialized local variable 'best_bits' used
+f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\tokenize.c(248): warning C4700: uninitialized local variable 'best_next' used
+f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\tokenize.c(249): warning C4700: uninitialized local variable 'best_token' used
+f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\tokenize.c(250): warning C4700: uninitialized local variable 'best_eb' used
+f:\aaa_stalker_sdk\gz_team\gz_team_engine\trunk\3rd party\xiph\libtheora\lib\tokenize.c(251): warning C4700: uninitialized local variable 'best_qc' used
+LINK : fatal error LNK1561: entry point must be defined
