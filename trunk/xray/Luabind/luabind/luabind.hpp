@@ -24,10 +24,10 @@
 #ifndef LUABIND_BIND_HPP_INCLUDED
 #define LUABIND_BIND_HPP_INCLUDED
 
-#include <luabind/config.hpp>
-#include <luabind/class.hpp>
-#include <luabind/function.hpp>
-#include <luabind/functor.hpp>
-#include <luabind/open.hpp>
+#include "config.hpp"
+#include "class.hpp"
+#include "function.hpp"
+#include "functor.hpp"
+#include "open.hpp"
 
 #endif // LUABIND_BIND_HPP_INCLUDED

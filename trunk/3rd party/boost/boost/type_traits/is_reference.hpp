@@ -11,20 +11,20 @@
 #ifndef BOOST_TT_IS_REFERENCE_HPP_INCLUDED
 #define BOOST_TT_IS_REFERENCE_HPP_INCLUDED
 
-#include "boost/type_traits/config.hpp"
+#include "config.hpp"
 
 #ifdef BOOST_NO_TEMPLATE_PARTIAL_SPECIALIZATION
-#   include "boost/type_traits/detail/yes_no_type.hpp"
-#   include "boost/type_traits/detail/wrap.hpp"
+#   include "detail/yes_no_type.hpp"
+#   include "detail/wrap.hpp"
 #endif
 
 #if defined(BOOST_NO_TEMPLATE_PARTIAL_SPECIALIZATION) && defined(BOOST_MSVC)
-#   include "boost/type_traits/detail/is_function_type_tester.hpp"
-#   include "boost/type_traits/detail/false_result.hpp"
+#   include "detail/is_function_type_tester.hpp"
+#   include "detail/false_result.hpp"
 #endif
 
 // should be the last #include
-#include "boost/type_traits/detail/bool_trait_def.hpp"
+#include "detail/bool_trait_def.hpp"
 
 namespace boost { 
 

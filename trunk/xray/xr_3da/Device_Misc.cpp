@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "dxerr.h"
+#include "..\xrCore\dxerr.h"
 
 // *****************************************************************************************
 // Error handling

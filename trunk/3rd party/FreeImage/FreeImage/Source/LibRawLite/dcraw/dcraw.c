@@ -55,7 +55,7 @@
 #include <sys/utime.h>
 #include <winsock2.h>
 #pragma comment(lib, "ws2_32.lib")
-#define snprintf _snprintf
+//#define snprintf _snprintf
 #define strcasecmp stricmp
 #define strncasecmp strnicmp
 typedef __int64 INT64;

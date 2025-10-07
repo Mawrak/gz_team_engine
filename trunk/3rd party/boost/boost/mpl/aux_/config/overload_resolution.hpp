@@ -17,7 +17,7 @@
 #ifndef BOOST_MPL_AUX_CONFIG_OVERLOAD_RESOLUTION_HPP_INCLUDED
 #define BOOST_MPL_AUX_CONFIG_OVERLOAD_RESOLUTION_HPP_INCLUDED
 
-#include "boost/config.hpp"
+#include "../../../config.hpp"
 
 #if defined(__BORLANDC__) && (__BORLANDC__ <= 0x561 || !defined(BOOST_STRICT_CONFIG)) \
  || defined(__MWERKS__) && __MWERKS__ < 0x3001 \

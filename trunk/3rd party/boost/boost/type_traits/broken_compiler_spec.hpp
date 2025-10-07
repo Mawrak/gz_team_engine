@@ -8,8 +8,8 @@
 #ifndef BOOST_TT_BROKEN_COMPILER_SPEC_HPP_INCLUDED
 #define BOOST_TT_BROKEN_COMPILER_SPEC_HPP_INCLUDED
 
-#include "boost/mpl/aux_/lambda_support.hpp"
-#include "boost/config.hpp"
+#include "../mpl/aux_/lambda_support.hpp"
+#include "../config.hpp"
 
 #if !defined(BOOST_NO_TEMPLATE_PARTIAL_SPECIALIZATION)
 

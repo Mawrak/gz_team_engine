@@ -17,8 +17,8 @@
 #ifndef BOOST_MPL_AUX_CONFIG_LAMBDA_HPP_INCLUDED
 #define BOOST_MPL_AUX_CONFIG_LAMBDA_HPP_INCLUDED
 
-#include "boost/mpl/aux_/config/ttp.hpp"
-#include "boost/config.hpp"
+#include "config/ttp.hpp"
+#include "../../../config.hpp"
 
 // agurt, 15/jan/02: full-fledged implementation requires both 
 // template template parameters _and_ partial specialization

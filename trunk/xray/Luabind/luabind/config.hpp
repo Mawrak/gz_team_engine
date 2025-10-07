@@ -34,9 +34,9 @@
 #endif
 #define LUABIND_DONT_COPY_STRINGS
 
-#include "../xrCore/xrCore.h"
-#include "../../build_config_defines.h"
-#include "..\..\3rd party\boost\boost\config.hpp"
+#include "../../xrCore/xrCore.h"
+#include "../../../build_config_defines.h"
+#include "..\..\..\3rd party\boost\boost\config.hpp"
 
 //namespace std {
 //	void terminate();

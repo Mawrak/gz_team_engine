@@ -43,6 +43,6 @@ BOOST_TT_AUX_TYPE_TRAIT_PARTIAL_SPEC1_1(typename T,add_const,T&,T&)
 
 } // namespace boost
 
-#include "boost/type_traits/detail/type_trait_undef.hpp"
+#include "detail/type_trait_undef.hpp"
 
 #endif // BOOST_TT_ADD_CONST_HPP_INCLUDED

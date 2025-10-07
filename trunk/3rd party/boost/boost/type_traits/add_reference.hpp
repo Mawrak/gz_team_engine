@@ -10,12 +10,12 @@
 #ifndef BOOST_TT_ADD_REFERENCE_HPP_INCLUDED
 #define BOOST_TT_ADD_REFERENCE_HPP_INCLUDED
 
-#include "boost/type_traits/is_reference.hpp"
-#include "boost/detail/workaround.hpp"
-#include "boost/config.hpp"
+#include "is_reference.hpp"
+#include "../detail/workaround.hpp"
+#include "../config.hpp"
 
 // should be the last #include
-#include "boost/type_traits/detail/type_trait_def.hpp"
+#include "detail/type_trait_def.hpp"
 
 namespace boost {
 

@@ -85,7 +85,7 @@
 #include <algorithm>
 
 #if defined (__DMC__)
-#  define snprintf _snprintf
+//#  define snprintf _snprintf
 #endif
 
 _STLP_BEGIN_NAMESPACE

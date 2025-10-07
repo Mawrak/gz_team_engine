@@ -17,7 +17,7 @@
 #ifndef BOOST_MPL_AUX_CONFIG_TTP_HPP_INCLUDED
 #define BOOST_MPL_AUX_CONFIG_TTP_HPP_INCLUDED
 
-#include "boost/config.hpp"
+#include "../../../config.hpp"
 
 #if defined(BOOST_NO_TEMPLATE_TEMPLATES) \
  && (!defined(BOOST_MSVC) || BOOST_MSVC < 1300)

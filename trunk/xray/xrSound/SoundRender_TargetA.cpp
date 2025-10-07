@@ -142,7 +142,7 @@ void	CSoundRender_TargetA::fill_parameters()
 	VERIFY2(m_pEmitter,SE->source()->file_name                                       ());
 	A_CHK(alSource3f(pSource, AL_POSITION,	 			m_pEmitter->p_source.position.x,m_pEmitter->p_source.position.y,-m_pEmitter->p_source.position.z));
 
-	VERIFY2(m_pEmitter, SE->source->file_name());
+	VERIFY2(m_pEmitter, SE->source()->file_name());
 	if (psDoppler & sdop_emitter && !SE->is_2D()){
 //		Msg("p_source.velocity(%f)[%f:%f:%f]",m_pEmitter->p_source.velocity.magnitude(),m_pEmitter->p_source.velocity.x,m_pEmitter->p_source.velocity.y,m_pEmitter->p_source.velocity.z);
 		A_CHK(alSource3f(pSource, AL_VELOCITY, m_pEmitter->p_source.velocity.x, m_pEmitter->p_source.velocity.y, -m_pEmitter->p_source.velocity.z));
