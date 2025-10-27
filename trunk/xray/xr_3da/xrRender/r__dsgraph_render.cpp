@@ -57,7 +57,7 @@ void __fastcall sorted_L1		(mapSorted_Node *N)
 {
 	VERIFY (N);
 	IRender_Visual *V				= N->val.pVisual;
-	VERIFY (V && V->shader._get());
+	VERIFY (V && V->shader_ref._get());
 	RCache.set_Element				(N->val.se);
 	RCache.set_xform_world			(N->val.Matrix);
 	RImplementation.apply_object	(N->val.pObject);
