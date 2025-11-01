@@ -469,7 +469,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>X:\libraries\xrSound.lib;X:\libraries\luabind.lib;X:\libraries\lua5.1.lib;Ws2_32.lib;X:\libraries\xrCDB.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>legacy_stdio_definitions.lib;Ws2_32.lib;dxerr.lib;%(AdditionalDependencies);X:\libraries\xrSound.lib;X:\libraries\luabind.lib;X:\libraries\lua5.1.lib;Ws2_32.lib;X:\libraries\xrCDB.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <GenerateMapFile>false</GenerateMapFile>
@@ -481,6 +481,7 @@
       <EnableCOMDATFolding>
       </EnableCOMDATFolding>
       <ImportLibrary>x:\libraries\$(ProjectName).lib</ImportLibrary>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86;C:\Program Files %28x86%29\Microsoft DirectX SDK %28November 2007%29\Lib\x86;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2007%29\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Mixed|x64'">
