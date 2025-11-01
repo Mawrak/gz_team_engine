@@ -54,7 +54,8 @@ void CHandTorch::Load(LPCSTR section)
 	HUD_SOUND::LoadSound(section, "snd_switch", m_snd_switch, ESoundTypes(SOUND_TYPE_ITEM_USING));
 	battarey_life    = pSettings->r_float(section,  "battarey_life");
 	light_trace_bone = pSettings->r_string(section, "light_trace_bone"); 
-	VERIFY(light_trace_bone != BI_NONE);
+	// Fix: Compare with empty string instead of BI_NONE
+	VERIFY(light_trace_bone.size() > 0); // or light_trace_bone.c_str() != nullptr
 }
 
 BOOL CHandTorch::net_Spawn(CSE_Abstract* DC) 

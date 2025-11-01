@@ -89,8 +89,8 @@ class	CWeaponScript
 {
 public:
 	static SRotation&					FireDeviation				(CWeapon *wpn);
- 	static luabind::object				get_fire_modes				(CWeaponMagazined *wpn);
-	static void							set_fire_modes				(CWeaponMagazined *wpn, luabind::object const& t);
+ 	//static luabind::object				get_fire_modes				(CWeaponMagazined *wpn);
+	//static void							set_fire_modes				(CWeaponMagazined *wpn, luabind::object const& t);
  	static luabind::object				get_hit_power				(CWeapon *wpn);
 	static void							set_hit_power				(CWeapon *wpn, luabind::object const& t);
 	DECLARE_SCRIPT_REGISTER_FUNCTION

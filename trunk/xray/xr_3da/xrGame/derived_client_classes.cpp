@@ -335,30 +335,6 @@ SRotation& CWeaponScript::FireDeviation(CWeapon *wpn)
 	return wpn->constDeviation;
 }
 
-luabind::object CWeaponScript::get_fire_modes(CWeaponMagazined *wpn)
-{
-   lua_State *L = wpn->lua_game_object()->lua_state();
-   luabind::object t = newtable(L);   
-   auto &vector = wpn->m_aFireModes;
-   int index = 1;
-   for (auto it = vector.begin(); it != vector.end(); ++it, ++index)
-	   t[index] = *it;
-
-   return t;
-}
-
-void CWeaponScript::set_fire_modes(CWeaponMagazined *wpn, luabind::object const& t)
-{
-	if (LUA_TTABLE != t.type()) return;
-	auto &vector = wpn->m_aFireModes;
-	vector.clear();
-	for (auto it = t.begin(); it != t.end(); ++it)
-	{
-		int m = object_cast<int>(*it);
-		vector.push_back(m);
-	}	
-}
-
 luabind::object CWeaponScript::get_hit_power(CWeapon *wpn)
 {
    lua_State *L = wpn->lua_game_object()->lua_state();
@@ -479,7 +455,7 @@ void CWeaponScript::script_register(lua_State *L)
 			.def_readwrite("shoot_effector_start"		,			&CWeaponMagazined::m_iShootEffectorStart)
 			.def_readwrite("cur_fire_mode"				,			&CWeaponMagazined::m_iCurFireMode)			
 			.property	  ("fire_mode"					,			&curr_fire_mode)
-			.property	  ("fire_modes"					,			&get_fire_modes, &set_fire_modes)
+//			.property	  ("fire_modes"					,			&get_fire_modes, &set_fire_modes)
 			,
 			class_<CWeaponMagazinedWGrenade,			CWeaponMagazined>("CWeaponMagazinedWGrenade")
 			.def_readwrite("gren_mag_size"				,			&CWeaponMagazinedWGrenade::iMagazineSize2)			
