@@ -5,6 +5,8 @@
 
 #include "NET_Log.h"
 
+#include "dplay8_fixes.h"
+
 #pragma warning(push)
 #pragma warning(disable:4995)
 #include <malloc.h>
@@ -429,8 +431,8 @@ if(!psNET_direct_connect)
 	CHK_DX(net_Address_device->SetSP		(bSimulator? &CLSID_NETWORKSIMULATOR_DP8SP_TCPIP : &CLSID_DP8SP_TCPIP ));
 	
 	DWORD dwTraversalMode = DPNA_TRAVERSALMODE_NONE;
-	CHK_DX(net_Address_device->AddComponent(DPNA_KEY_TRAVERSALMODE, &dwTraversalMode, sizeof(dwTraversalMode), DPNA_DATATYPE_DWORD));
-
+	CHK_DX(net_Address_device->AddComponent(L"traversalmode", &dwTraversalMode, sizeof(dwTraversalMode), DPNA_DATATYPE_DWORD));
+// Note: L prefix for Unicode string
 	HRESULT HostSuccess = S_FALSE;
 	// We are now ready to host the app and will try different ports
 	psNET_Port = dwServerPort;//BASE_PORT;

@@ -6,6 +6,9 @@
 #include "NET_Log.h"
 #include "../xr_3da/xrGame/battleye.h"
 
+#include "dplay8_fixes.h"
+
+
 #pragma warning(push)
 #pragma warning(disable:4995)
 #include <malloc.h>

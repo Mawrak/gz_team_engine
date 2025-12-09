@@ -8,7 +8,7 @@
 #include "customzone.h"
 #include "artifact.h"
 #include "ai_sounds.h"
-#include "../xr_3da/feel_touch.h"
+#include "../feel_touch.h"
 #include "ui/ArtefactDetectorUI.h"
 
 struct ITEM_TYPE

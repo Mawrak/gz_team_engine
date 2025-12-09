@@ -1,0 +1,2 @@
+copy atlmfc from C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ or whatever
+put this into C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include
